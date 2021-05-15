@@ -1,0 +1,171 @@
+#shto_shpalljen {
+    margin-bottom: 45px;
+}
+#profile_container {
+    margin-bottom: 45px;
+}
+#AdminPanel {
+    margin-bottom: 45px;
+}
+#shto_kategorin {
+    margin-bottom: 45px;
+}
+#messages_screen {
+    margin-bottom: 45px;
+}
+#members_screen {
+    margin-bottom: 45px;
+}
+input {
+    border-radius: 0;
+    box-shadow: none !important;
+}
+
+input:focus {
+    border: 1px solid #cccccc;
+}
+
+textarea {
+    border-radius: 0;
+    box-shadow: none !important;
+}
+
+textarea:focus {
+    border: 1px solid #cccccc;
+}
+
+.hasError input {
+    border: 1px solid #c41230;
+}
+
+.hasError textarea {
+    border: 1px solid #c41230;
+}
+
+.kategorit {
+    cursor: pointer;
+    overflow: scroll;
+}
+
+/* Profile */
+.profile {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.profile-info {
+    border: .1rem #c0c0c0 solid;
+    border-radius: .5rem;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+.profile-shpalljet {
+    margin-top: 1rem;
+}
+ 
+.primary {
+    background-color: #f0c040;
+    color: #333333;
+
+}
+.secondary {
+    background-color: #f0f0f0;
+    color: #333333;
+}
+.secondary-delete {
+    color: #333333;
+}
+.secondary-delete:hover {
+    color: red;
+}
+.profile-shpalljet {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+th {
+    text-align: left;
+}
+tbody>tr:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+.button_admin {
+    padding: 5px;
+    border: .1rem #808080 solid;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.button.secondary {
+    background-color: #f0f0f0;
+    text-decoration: none;
+}
+.button_admin.secondary:hover {
+    background:#fc8d61;
+    color: #fff;
+    border: .1rem #fc8d61 solid;
+}
+
+/*Aprovo Screen */
+/* Details: */
+.details-button {
+    width: 50%;
+}
+
+h3 {
+    font-family: "Playfair Display", serif;
+    color: #666666;
+}
+
+.details_h3 {
+    font-family: "Roboto", sans-serif;
+    color: #666665;
+    font-weight: bold;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    /* font-size: 20px; */
+}
+
+.imgbox {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 98%;
+    overflow: hidden;
+}
+
+.imgbox img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+@media (min-width: 992px) {
+    /* #shto_kategorin {
+        margin-top: 9rem;
+    } */
+    /* #categories_screen {
+        margin-top: 9rem;
+    } */
+    /* #contacts_screen {
+        margin-top: 9rem;
+    } */
+}
+
+@media (max-width: 992px) {
+    /* #shto_kategorin {
+        margin-top: 4rem;
+    } */
+    /* #categories_screen {
+        margin-top: 4rem;
+    } */
+    /* #contacts_screen {
+        margin-top: 4rem;
+    } */
+
+}
+

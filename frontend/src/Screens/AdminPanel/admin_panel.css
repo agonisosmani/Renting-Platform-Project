@@ -1,0 +1,37 @@
+.admin_panel_btn {
+    display: block;
+    margin: 20px 0 0 0;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none !important;
+    border: 1px solid transparent;
+    background: #52d67a;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #f9f9f9;
+}
+
+.admin_panel_btn:hover {
+    background: none;
+    color: #333333;
+    border: 1px solid #52d67a;
+    color: #52d67a;
+}
+
+.admin_panel_title {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+}
+
+@media (min-width: 992px) {
+    /* #AdminPanel {
+        margin-top: 9rem;
+    } */
+}
+
+@media (max-width: 992px) {
+    /* #AdminPanel {
+        margin-top: 4rem;
+    } */
+}

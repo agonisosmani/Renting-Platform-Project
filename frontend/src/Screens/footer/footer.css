@@ -1,0 +1,64 @@
+.footer-static {
+    background-color: #f3f3f3;
+    padding: 35px 0 0;
+}
+.ruckify-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer-static .h5, footer .h5 {
+    color: #414141;
+    font-weight: 700;
+}
+.footer-static ul, footer ul {
+    padding-left: 0!important;
+}
+.footer-static ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.footer-static ul li, footer ul li {
+    color: #414141;
+    list-style: none;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+.rent-gjithqka-icon {
+    width: 160px;
+}
+.footer-static hr, footer hr {
+    border-color: #e2e2e2;
+}
+.footer-static .bottom-footer p, footer .bottom-footer p {
+    color: #3f3f3f;
+    font-size: 14px;
+}
+#socialmedia_footer li a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #666666;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    color: #666666;
+}
+
+#socialmedia_footer li a:hover {
+    color: #ffffff;
+    background: #666666;
+}
+#socialmedia_footer li:not(:first-child) {
+    padding: 0 0 0 10px;
+}
+@media (max-width: 1599px) {
+    .ruckify-container {
+        max-width: 1300px!important;
+    }
+}
