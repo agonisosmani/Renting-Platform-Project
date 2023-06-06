@@ -35,10 +35,10 @@ app.use('/api/komunat', komunaRoute);
 app.use('/api/shpalljaNotFound', shpalljaNotFoundRoutes);
 app.use('/api/members', memerRoutes);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8080;
 
 app.use("/images", express.static("images")); //per me mujt images me i shfaq ne home page
 
 app.listen(PORT, () => {
-    console.log('Server is running on port 5000')
+    console.log('Server is running on port 8080')
 })
